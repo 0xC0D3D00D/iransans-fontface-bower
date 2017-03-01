@@ -1,4 +1,4 @@
-## Notice! Since this font family is licensed, This package does not include the fonts itself, you have to download it from the producer website. This package only supports IRANSans v4.
+ > Notice! Since this font family is licensed, This package does not include the fonts itself, you have to download it from the producer website. This package only supports IRANSans v4.
 
 # IRANSans fontface
 
