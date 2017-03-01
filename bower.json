@@ -1,0 +1,15 @@
+{
+    "name": "iransans-fontface",
+    "description": "A simple package providing the IRANSans fontface.",
+    "version": "0.1.0",
+    "main": [
+        "./css/iransans/iransans-fontface.css"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

@@ -1,0 +1,30 @@
+$iransans-font-path: '../../fonts' !default;
+
+@mixin iransans-font($variant, $type, $weight, $style) {
+
+    $font-full-path: '#{$iransans-font-path}/#{$variant}/#{$variant}';
+
+    @font-face {
+        font-family: '#{$variant}';
+        src: url('#{$font-full-path}_#{$type}.eot');
+        src: local('#{$variant} #{$type}'),
+             local('#{$variant}_#{$type}'),
+             url('#{$font-full-path}_#{$type}.eot?#iefix') format('embedded-opentype'),
+             url('#{$font-full-path}_#{$type}.woff2') format('woff2'),
+             url('#{$font-full-path}_#{$type}.woff') format('woff'),
+             url('#{$font-full-path}_#{$type}.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+
+    @font-face {
+        font-family: '#{$variant}-#{$type}';
+        src: url('#{$font-full-path}_#{$type}.eot');
+        src: local('#{$variant} #{$type}'),
+             local('#{$variant}_#{$type}'),
+             url('#{$font-full-path}_#{$type}.eot?#iefix') format('embedded-opentype'),
+             url('#{$font-full-path}_#{$type}.woff2') format('woff2'),
+             url('#{$font-full-path}_#{$type}.woff') format('woff'),
+             url('#{$font-full-path}_#{$type}.ttf') format('truetype');
+    }
+}

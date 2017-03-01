@@ -1,0 +1,28 @@
+{
+    "name": "iransans-fontface",
+    "version": "0.1.0",
+    "description": "A simple package providing the IRANSans fontface.",
+    "main": "css/iransans/iransans-fontface.css",
+    "scripts": {
+        "test": "./test.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mdhheydari/iransans-fontface-bower.git"
+    },
+    "keywords": [
+        "iransans",
+        "font",
+        "fontface"
+    ],
+    "author": "Mohammad Hossein Heydari <mdh.heydari@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/mdhheydari/iransans-fontface-bower/issues"
+    },
+    "homepage": "https://github.com/mdhheydari/iransans-fontface-bower",
+    "devDependencies": {
+        "less": "2.7.1",
+        "node-sass": "3.8.0"
+    }
+}
